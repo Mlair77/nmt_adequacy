@@ -1,7 +1,31 @@
 
 # Prevent the Language Model from being Overconfident in Neural Machine Translation
 
-We carry out our experiments on standard Transformer with the  [OpenNMT](https://github.com/OpenNMT/OpenNMT-py) toolkit.
+This is the PyTorch implementation of paper: [Prevent the Language Model from being Overconfident in Neural Machine Translation](https://aclanthology.org/2021.acl-long.268.pdf).
+
+
+
+We carry out our experiments on standard Transformer with the  [OpenNMT](https://github.com/OpenNMT/OpenNMT-py) toolkit. If you use any source code included in this repo in your work, please cite the following paper.
+
+```
+@inproceedings{miao-etal-2021-prevent,
+    title = "Prevent the Language Model from being Overconfident in Neural Machine Translation",
+    author = "Miao, Mengqi  and
+      Meng, Fandong  and
+      Liu, Yijin  and
+      Zhou, Xiao-Hua  and
+      Zhou, Jie",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.268",
+    pages = "3456--3468",
+}
+```
+
+
 
 
 ## Runtime Environment
